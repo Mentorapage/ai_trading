@@ -2,6 +2,15 @@
 # AI Trading Strategy - Environment Variables Template
 # ========================================
 # 
+# ----------------------------------------
+# SYSTEM MODE CONFIGURATION
+# ----------------------------------------
+MODE=REAL                                              # System operation mode: REAL or BACKTEST
+
+# ========================================
+# AI Trading Strategy - Environment Variables Template
+# ========================================
+# 
 # SETUP INSTRUCTIONS:
 # 1. Copy this file and rename it to ".env" (remove .txt extension)
 # 2. Replace all placeholder values with your actual API credentials
