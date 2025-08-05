@@ -1,0 +1,13 @@
+alpaca==1.0.0
+alpaca-py==0.40.1
+alpaca-trade-api==3.2.0
+DateTime==5.5
+finnhub-python==2.4.23
+newsapi-python==0.2.7
+nltk==3.9.1
+numpy==2.0.2
+pandas==2.2.3
+pandas_market_calendars==5.0.0
+plotly==6.0.0
+python-dotenv==1.1.0
+APScheduler==3.11.0
