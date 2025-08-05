@@ -6,20 +6,13 @@ import os
 import nltk
 import pandas as pd
 import time
-import datetime
-
-
 from alpaca.data.timeframe import TimeFrame
-
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
-from alpaca.data.timeframe import TimeFrame
-from datetime import datetime
-
-from dotenv import load_dotenv
 from datetime import datetime, time as t_time
+from dotenv import load_dotenv
 
-load_dotenv(dotenv_path=".env")
+load_dotenv(dotenv_path="../Automated Trading Script/.env")
 api_key = os.getenv("finnhubkey")
 key = os.getenv("apikey")
 secret = os.getenv("apisecret")
@@ -27,7 +20,7 @@ secret = os.getenv("apisecret")
 if not os.getenv("finnhubkey"):
     raise ValueError("Finnhub API key is not set in the .env file.")
 
-nltk.download('vader_lexicon')  #KEY# DDD
+nltk.download('vader_lexicon', quiet=True)
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 def news_score(ticker):

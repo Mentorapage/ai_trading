@@ -1,0 +1,79 @@
+# ========================================
+# AI Trading Strategy - Environment Variables Template
+# ========================================
+# 
+# SETUP INSTRUCTIONS:
+# 1. Copy this file and rename it to ".env" (remove .txt extension)
+# 2. Replace all placeholder values with your actual API credentials
+# 3. Never commit the .env file to version control
+# 4. Add .env to your .gitignore file
+#
+# ========================================
+
+# ----------------------------------------
+# ALPACA TRADING API CREDENTIALS
+# ----------------------------------------
+# Required for: technology_auto_trade.py, trade_types.py, technology_back_testing.py, cancel_all.py
+# Get your keys from: https://alpaca.markets/ → Dashboard → API Keys → Paper Trading
+
+apikey=YOUR_ALPACA_API_KEY_HERE                    # Alpaca API Key for trading operations
+apisecret=YOUR_ALPACA_SECRET_KEY_HERE              # Alpaca Secret Key for authentication
+
+# ----------------------------------------
+# FINNHUB NEWS API CREDENTIALS  
+# ----------------------------------------
+# Required for: technology_auto_trade.py, technology_back_testing.py
+# Get your key from: https://finnhub.io/ → Dashboard → API Keys
+
+finnhubkey=YOUR_FINNHUB_API_KEY_HERE               # Finnhub API Key for news sentiment analysis
+
+# ========================================
+# API ACCOUNT SETUP GUIDE
+# ========================================
+#
+# ALPACA MARKETS SETUP:
+# 1. Visit https://alpaca.markets/
+# 2. Create a free account
+# 3. Navigate to: Dashboard → API Keys
+# 4. Click "Generate New Keys" 
+# 5. Select "Paper Trading" (NOT Live Trading)
+# 6. Copy the "API Key ID" → replace apikey above
+# 7. Copy the "Secret Key" → replace apisecret above
+#
+# FINNHUB SETUP:
+# 1. Visit https://finnhub.io/
+# 2. Sign up for a free account
+# 3. Go to Dashboard after login
+# 4. Copy your API token → replace finnhubkey above
+#
+# ========================================
+# API RATE LIMITS & RESTRICTIONS
+# ========================================
+#
+# ALPACA (Paper Trading):
+# - Unlimited paper trades (no real money)
+# - Real-time market data included
+# - Full API access for testing
+#
+# FINNHUB (Free Tier):
+# - 60 API calls per minute
+# - Real-time news data
+# - Historical data access
+#
+# ========================================
+# SECURITY & BEST PRACTICES
+# ========================================
+#
+# IMPORTANT SECURITY NOTES:
+# - Only use PAPER TRADING keys (never live trading)
+# - Never share or commit these credentials
+# - Rotate keys periodically for security
+# - Keep this file permissions restricted (chmod 600)
+#
+# TROUBLESHOOTING:
+# - If authentication fails, regenerate your API keys
+# - Ensure no extra spaces around the = sign
+# - Check that account is activated and verified
+# - Verify paper trading is enabled in Alpaca
+#
+# ======================================== 
