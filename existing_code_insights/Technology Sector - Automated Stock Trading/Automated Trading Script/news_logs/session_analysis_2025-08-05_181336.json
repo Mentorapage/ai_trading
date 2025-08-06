@@ -1,0 +1,48 @@
+{
+  "session_info": {
+    "date": "2025-08-05",
+    "timestamp": "2025-08-05T18:13:36.531880",
+    "total_stocks_analyzed": 2,
+    "total_articles_processed": 2
+  },
+  "stock_analysis": {
+    "AAPL": {
+      "total_articles": 1,
+      "positive_articles": [
+        {
+          "timestamp": "2025-08-05T18:13:36.531598",
+          "published_time": "2025-08-05T16:26:10",
+          "headline": "Apple Unveils Revolutionary AI Features",
+          "source": "TechCrunch",
+          "url": "https://example.com/apple-ai",
+          "summary": "Apple announces groundbreaking AI capabilities that will transform user experience....",
+          "sentiment_score": 0.75,
+          "category": "Very Positive"
+        }
+      ],
+      "negative_articles": [],
+      "neutral_articles": [],
+      "average_sentiment": 0.75,
+      "analysis_completed": "2025-08-05T18:13:36.531676"
+    },
+    "MSFT": {
+      "total_articles": 1,
+      "positive_articles": [
+        {
+          "timestamp": "2025-08-05T18:13:36.531671",
+          "published_time": "2025-08-05T16:26:10",
+          "headline": "Microsoft Azure AI Services Expand Globally",
+          "source": "Reuters",
+          "url": "https://example.com/msft-ai",
+          "summary": "Microsoft expands its AI services worldwide, bringing advanced capabilities to more markets....",
+          "sentiment_score": 0.65,
+          "category": "Very Positive"
+        }
+      ],
+      "negative_articles": [],
+      "neutral_articles": [],
+      "average_sentiment": 0.65,
+      "analysis_completed": "2025-08-05T18:13:36.531678"
+    }
+  }
+}

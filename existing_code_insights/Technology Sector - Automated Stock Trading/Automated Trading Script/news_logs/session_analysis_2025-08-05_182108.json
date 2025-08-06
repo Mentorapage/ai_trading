@@ -1,0 +1,177 @@
+{
+  "session_info": {
+    "date": "2025-08-05",
+    "timestamp": "2025-08-05T18:21:08.554118",
+    "total_stocks_analyzed": 3,
+    "total_articles_processed": 14
+  },
+  "stock_analysis": {
+    "GOOGL": {
+      "total_articles": 5,
+      "positive_articles": [
+        {
+          "timestamp": "2025-08-05T18:21:08.284722",
+          "published_time": "2025-08-05T16:48:48",
+          "headline": "US agency approves OpenAI, Google, Anthropic for federal AI vendor list",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=d826bc7875af4cb95a68907486fcae0a139cc17cf92262dd97cff17cbfd49003",
+          "summary": "WASHINGTON (Reuters) -The U.S. government's central purchasing arm on Tuesday added OpenAI's ChatGPT, Google's Gemini and Anthropic's Claude to a list of approved artificial intelligence vendors to sp...",
+          "sentiment_score": 0.4,
+          "category": "Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.284821",
+          "published_time": "2025-08-05T16:35:10",
+          "headline": "Waymo may be worth $200B+ using Tesla as benchmark—DA Davidson",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a793402bb97400e013e339d193ac37fb1385b4d0418356a741f48276562bc8ba",
+          "summary": "Investing.com -- DA Davidson said in a note to clients on Tuesday that Alphabet’s (NASDAQ:GOOGL) Waymo unit could be worth more than $200 billion as a standalone company, citing comparisons with Tesla...",
+          "sentiment_score": 0.5,
+          "category": "Very Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.284877",
+          "published_time": "2025-08-05T16:26:10",
+          "headline": "Why Apple Might Be the Most Overlooked AI Play in the Market",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=21626fa62dbc0da4117a2ea735552d1de0844f0ea53bda4d89ed3d96224223d7",
+          "summary": "Apple is building long-term growth, not chasing the AI hype....",
+          "sentiment_score": 0.6,
+          "category": "Very Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.285138",
+          "published_time": "2025-08-05T16:15:48",
+          "headline": "Cathie Wood is Buying Figma Stock with Both Hands. Should You Buy This Hot IPO, Too?",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=9d6f950b38cc1196ace8ccd8e05e2acde57080b7f78d6f99648d7403b71dc326",
+          "summary": "Figma stock has almost tripled in market value since its initial public offering last week, attracting investments from Cathie Wood and others....",
+          "sentiment_score": 0.7,
+          "category": "Very Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.285230",
+          "published_time": "2025-08-05T16:12:00",
+          "headline": "Europe Online Education Market Trends and Company Analysis Report 2025-2033 Featuring Coursera, Instructure, Adobe, Alphabet, Udemy, Pearsons, Stride, NetEase",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=f78b7ec76f2555bda3861d5a4e494e10e24c54b93fe22000f93a56cdf2ee8677",
+          "summary": "The Europe Online Education Market is projected to soar to USD 229.94 billion by 2033, from USD 94.07 billion in 2024, growing at a CAGR of 10.44% from 2025-2033. With increasing demand for upskilling...",
+          "sentiment_score": 0.8,
+          "category": "Very Positive"
+        }
+      ],
+      "negative_articles": [],
+      "neutral_articles": [],
+      "average_sentiment": 0.6,
+      "analysis_completed": "2025-08-05T18:21:08.285256"
+    },
+    "AMZN": {
+      "total_articles": 5,
+      "positive_articles": [
+        {
+          "timestamp": "2025-08-05T18:21:08.421741",
+          "published_time": "2025-08-05T16:27:00",
+          "headline": "LEO Satellite Market Global Forecast Report to 2030 | Key Industry Players Like SPACEX and Airbus Lead LEO Satellite Advancements",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=6988f96f7ca8f7b03c09f31990bafa85f894bfb0994d1bba82b7704fd846cb83",
+          "summary": "The global LEO satellite market is driven by increasing LEO satellite launches for commercial, government, and defense applications. The market offers opportunities for data and remote sensing service...",
+          "sentiment_score": 0.4,
+          "category": "Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.421839",
+          "published_time": "2025-08-05T16:00:00",
+          "headline": "PowerSchool Launches \"Start with a Spark\" Giveaway to Celebrate Educators This Back-to-School Season",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=d6f17af0fe30534764a48f4ba2d24659e0bd014ab541987ae56312c1dffb58c2",
+          "summary": "FOLSOM, Calif., August 05, 2025--PowerSchool, a leading provider of cloud-based software for K-12 education, is kicking off the 2025-2026 school year with a nationwide giveaway designed to celebrate a...",
+          "sentiment_score": 0.5,
+          "category": "Very Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.421905",
+          "published_time": "2025-08-05T15:48:00",
+          "headline": "Amazon and Brimstone Advance Lower-Carbon Cement Collaboration",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=b194a6c710294bfe45ea36c2203c934003ad63d213a560afb19e361ac20b18ab",
+          "summary": "SEATTLE & OAKLAND, Calif., August 05, 2025--Following testing outcomes, Amazon signed a commercial agreement to reserve annual volumes of Brimstone’s portland cement from its forthcoming plant....",
+          "sentiment_score": 0.6,
+          "category": "Very Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.422297",
+          "published_time": "2025-08-05T15:30:00",
+          "headline": "IAB Tech Lab Releases Live Event Ad Playbook in Collaboration with Amazon, NBCUniversal, FreeWheel, and Index Exchange",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=c15e29a10b9bf848ef30fe5fc5ccf7a4561c07f9ad666bde3dbe279ba7d96833",
+          "summary": "Today, IAB Tech Lab, the global digital advertising technical standards-setting body, spotlighted its Live Event Ad Playbook, which includes the new Concurrent Streams API specification aimed at simpl...",
+          "sentiment_score": 0.7,
+          "category": "Very Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.422403",
+          "published_time": "2025-08-05T14:21:45",
+          "headline": "Broadcom Supercharges AI Infrastructure With Next-Gen Chip",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=98e8492c192961f0e2178239e8c29a6db04637e6d18be0eaffd0be87d56b3af2",
+          "summary": "Broadcom (NASDAQ:AVGO) announced on Monday that it has begun shipping the Jericho4 ethernet fabric router, a purpose-built platform designed for the next generation of distributed AI infrastructure. B...",
+          "sentiment_score": 0.8,
+          "category": "Very Positive"
+        }
+      ],
+      "negative_articles": [],
+      "neutral_articles": [],
+      "average_sentiment": 0.6,
+      "analysis_completed": "2025-08-05T18:21:08.422436"
+    },
+    "NVDA": {
+      "total_articles": 4,
+      "positive_articles": [
+        {
+          "timestamp": "2025-08-05T18:21:08.553025",
+          "published_time": "2025-08-05T16:35:10",
+          "headline": "Waymo may be worth $200B+ using Tesla as benchmark—DA Davidson",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a793402bb97400e013e339d193ac37fb1385b4d0418356a741f48276562bc8ba",
+          "summary": "Investing.com -- DA Davidson said in a note to clients on Tuesday that Alphabet’s (NASDAQ:GOOGL) Waymo unit could be worth more than $200 billion as a standalone company, citing comparisons with Tesla...",
+          "sentiment_score": 0.4,
+          "category": "Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.553059",
+          "published_time": "2025-08-05T16:26:10",
+          "headline": "Why Apple Might Be the Most Overlooked AI Play in the Market",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=21626fa62dbc0da4117a2ea735552d1de0844f0ea53bda4d89ed3d96224223d7",
+          "summary": "Apple is building long-term growth, not chasing the AI hype....",
+          "sentiment_score": 0.5,
+          "category": "Very Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.553078",
+          "published_time": "2025-08-05T16:12:31",
+          "headline": "Here’s Why Baron Global Advantage Fund’s Has Strong Conviction in NVIDIA (NVDA)",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=ef7ae14a89e05c965c3c36d2b8c7b2865744ca37d0ae5bb845eeb262bdf9b15a",
+          "summary": "Baron Funds, an investment management company, released its “Baron Global Advantage Fund” investor letter for the second quarter of 2025. A copy of the letter can be downloaded here. In the second qua...",
+          "sentiment_score": 0.6,
+          "category": "Very Positive"
+        },
+        {
+          "timestamp": "2025-08-05T18:21:08.553184",
+          "published_time": "2025-08-05T16:01:22",
+          "headline": "Tech analyst warns AMD stock has run ahead of itself as company prepares to report",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=98b3e5bb10d78081eafc126364c7dfacde611b6034c5f00aca90f985eba2f496",
+          "summary": "Investing.com -- Lynx Equity Strategies issued a cautious note on AMD (NASDAQ:AMD) ahead of its earnings release, warning that the stock’s sharp rally may be outpacing the company’s fundamentals....",
+          "sentiment_score": 0.7,
+          "category": "Very Positive"
+        }
+      ],
+      "negative_articles": [],
+      "neutral_articles": [],
+      "average_sentiment": 0.55,
+      "analysis_completed": "2025-08-05T18:21:08.553197"
+    }
+  }
+}
