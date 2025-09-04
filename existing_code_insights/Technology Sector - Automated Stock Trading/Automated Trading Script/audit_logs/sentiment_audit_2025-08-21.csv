@@ -1,0 +1,2 @@
+ticker,date,articles_count,raw_sentiment,weighted_sentiment,meets_min_news,qualifies,source_count
+NVDA,2025-08-21,127,0.31180629921259845,0.31180629921259845,True,False,2

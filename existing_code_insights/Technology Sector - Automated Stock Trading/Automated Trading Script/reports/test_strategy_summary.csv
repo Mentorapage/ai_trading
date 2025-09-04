@@ -1,0 +1,4 @@
+strategy_id,total_pnl_usd,avg_pnl_usd,trade_count,pnl_std_usd,avg_pnl_pct,pnl_std_pct,avg_holding_minutes,take_profit_count,win_rate_pct,stop_loss_count,eod_count
+S01,-72301.0903,-5164.3636,14,11672.4718,-0.0369,0.0834,359.5714,0,35.714285714285715,1,13
+S02,-72301.0903,-5164.3636,14,11672.4718,-0.0369,0.0834,359.5714,0,35.714285714285715,1,13
+S03,-66520.187,-6652.0187,10,7727.7647,-0.0475,0.0552,378.0,0,20.0,0,10

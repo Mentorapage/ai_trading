@@ -1,0 +1,1 @@
+trade_id,open_time,close_time,symbol,strategy_id,qty,entry_price,exit_price,fees_usd,pnl_usd,pnl_pct,exit_reason,stop_pct,take_pct,sentiment_score,sentiment_label,news_headline

@@ -1,0 +1,43 @@
+# Simplified Trading Strategy Configuration
+# Volume + News/Sentiment filters ONLY (no ATR, no MA20/trend)
+
+strategy:
+  # Volume Filter
+  volume:
+    volume_multiplier_min: 1.2  # Minimum volume multiplier vs 20-day average
+    volume_z_min: 0.5           # Minimum volume z-score
+  
+  # News/Sentiment Filter
+  news:
+    min_news_count: 2           # Minimum number of articles required
+    min_sentiment: 0.1          # Minimum sentiment score (0-1 range)
+    max_sentiment: 0.7          # Maximum sentiment score (0-1 range)
+    score_threshold: null       # Optional additional threshold (null = disabled)
+  
+  # Sentiment-Range Overnight Holding
+  overnight_holding:
+    enabled: true               # Enable sentiment-range overnight holding
+    sentiment_range_min: 0.2    # Minimum sentiment for holding overnight [x]
+    sentiment_range_max: 0.6    # Maximum sentiment for holding overnight [y]
+    lookback_hours: 24          # Hours to look back for sentiment calculation
+  
+  # Source weights for sentiment calculation
+  source_weights:
+    Reuters: 1.0
+    Bloomberg: 1.0
+    MarketWatch: 0.8
+    Yahoo: 0.7
+    SeekingAlpha: 0.6
+    Benzinga: 0.5
+    default: 0.3                # Default weight for unknown sources
+
+# Deprecated fields (ignored with warning)
+# - ATR-related fields (atr_*, volatility_*)
+# - MA20/trend fields (ma20_*, trend_*, lookback_days)
+# - top_k fields (replaced with "trade all qualified")
+
+# Logging configuration
+logging:
+  debug_volume_filter: false    # Enable detailed volume filter logging
+  debug_news_sentiment: false   # Enable detailed news/sentiment logging
+

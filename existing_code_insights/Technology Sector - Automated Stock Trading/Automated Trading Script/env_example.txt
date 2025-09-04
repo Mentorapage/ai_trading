@@ -1,0 +1,45 @@
+# Trading System Environment Variables
+# Copy this file to .env and fill in your actual values
+
+# ===== ALPACA TRADING API =====
+# Get these from: https://app.alpaca.markets/paper/dashboard/overview
+apikey=YOUR_ALPACA_API_KEY_HERE
+apisecret=YOUR_ALPACA_SECRET_KEY_HERE
+
+# Alpaca API URLs (usually don't need to change these)
+# Paper trading (default): https://paper-api.alpaca.markets
+# Live trading: https://api.alpaca.markets
+ALPACA_BASE_URL=https://paper-api.alpaca.markets
+
+# ===== FINNHUB NEWS API =====
+# Get free API key from: https://finnhub.io/register
+# PREFERRED: Multiple keys for better rate limits (comma-separated)
+FINNHUB_KEYS=your_key_1,your_key_2,your_key_3
+
+# LEGACY: Single key (will be used if FINNHUB_KEYS not set)
+finnhubkey=YOUR_FINNHUB_API_KEY_HERE
+
+# ===== TELEGRAM NOTIFICATIONS (OPTIONAL) =====
+# Create bot: https://t.me/BotFather
+# Get chat ID: https://api.telegram.org/bot<YourBOTToken>/getUpdates
+TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN_HERE
+TELEGRAM_CHAT_ID=YOUR_CHAT_ID_HERE
+
+# ===== SYSTEM SETTINGS =====
+# Trading mode: paper or live (ALWAYS start with paper!)
+TRADING_MODE=paper
+
+# Log level: DEBUG, INFO, WARNING, ERROR
+LOG_LEVEL=INFO
+
+# Enable/disable features (true/false)
+ENABLE_TREND_FILTER=false
+ENABLE_NEWS_WEIGHTING=false
+ENABLE_RATE_LIMITING=false
+
+# ===== EXAMPLE VALUES (REPLACE WITH REAL ONES) =====
+# apikey=PK1234567890ABCDEF
+# apisecret=abcdef1234567890abcdef1234567890abcdef12
+# FINNHUB_KEYS=c123456789abcdef,c987654321fedcba
+# TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrSTUvwxYZ
+# TELEGRAM_CHAT_ID=123456789

@@ -1,0 +1,15 @@
+date,ticker,volume_yesterday,volume_ma20,articles_count,sources_count,raw_sentiment,weighted_sentiment,news_window_start,news_window_end,passed_volume,passed_news,passed_all_filters
+2025-08-29,NVDA,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,MSFT,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,AAPL,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,AMZN,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,GOOGL,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,META,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,AVGO,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,TSM,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,TSLA,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,ORCL,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,ADBE,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,CSCO,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,INTU,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False
+2025-08-29,QCOM,0,0,0,0,0,0,2025-08-28 09:30:00 ET,2025-08-29 09:30:00 ET,False,False,False

@@ -1,0 +1,52 @@
+INTRADAY TRADING STRATEGIES - MARCH 2025 FULL MONTH RESULTS
+================================================================================
+Trading Period: March 1-31, 2025 (21 trading days)
+Total Trades Executed: 1,008
+Total EOD Force Closes: 958 (95.0% of all trades)
+
+STRATEGY PERFORMANCE RANKING (Best to Worst):
+--------------------------------------------------------------------------------
+Rank | ID | Trend | Stop% | Take% | K | PnL ($) | Win% | Sharpe
+--------------------------------------------------------------------------------
+   1 | 12 | ON    |    5% |    5% | 1 |  -32,137 | 47.6% | -0.953
+   2 |  7 | OFF   |    5% |    5% | 3 |  -34,351 | 55.6% | -0.616
+   3 |  2 | ON    |    5% |    5% | 3 |  -34,351 | 55.6% | -0.616
+   4 | 13 | ON    |    7% |    5% | 1 |  -50,513 | 47.6% | -1.391
+   5 | 15 | OFF   |    3% |    5% | 1 |  -56,505 | 42.9% | -1.717
+   6 |  1 | ON    |    3% |    5% | 3 |  -59,821 | 54.0% | -1.133
+   7 | 16 | OFF   |    5% |    7% | 1 |  -76,504 | 47.6% | -2.642
+   8 |  3 | ON    |    5% |    7% | 3 |  -78,719 | 55.6% | -1.468
+   9 |  9 | ON    |    4% |    8% | 3 |  -84,587 | 55.6% | -1.557
+  10 | 18 | ON    |    6% |   12% | 3 |  -88,638 | 55.6% | -1.613
+  11 | 10 | ON    |    6% |   10% | 3 |  -88,638 | 55.6% | -1.613
+  12 | 11 | ON    |    3% |    3% | 1 |  -89,763 | 42.9% | -3.125
+  13 | 14 | ON    |   10% |   10% | 1 |  -96,912 | 47.6% | -3.011
+  14 |  8 | OFF   |    7% |   10% | 3 |  -97,095 | 55.6% | -1.728
+  15 |  4 | ON    |    7% |    7% | 3 |  -97,095 | 55.6% | -1.728
+  16 |  6 | ON    |   10% |   20% | 3 |  -99,127 | 55.6% | -1.754
+  17 |  5 | ON    |   10% |   15% | 3 |  -99,127 | 55.6% | -1.754
+  18 | 19 | OFF   |   10% |   20% | 3 |  -99,127 | 55.6% | -1.754
+  19 | 20 | ON    |   10% |   20% | 3 |  -99,127 | 55.6% | -1.754
+  20 | 17 | ON    |    8% |   12% | 3 | -109,535 | 55.6% | -1.884
+
+================================================================================
+KEY FINDINGS:
+• ALL 20 strategies were unprofitable over the full month
+• Best performer: Strategy #12 (loss of $32,137)
+• Worst performer: Strategy #17 (loss of $109,535)
+• Average loss per strategy: $78,583
+• Total capital lost: $1,571,667
+• Average win rate: 52.6%
+• Best Sharpe ratio: -0.616 (still negative)
+
+STRATEGY INSIGHTS:
+• Focused strategies (top_k=1) performed better than diversified (top_k=3)
+• Strategy #12: 5% stop/take, trend filter ON, focused - least losses
+• Wider stop-losses (10%+) led to larger losses
+• Trend filter ON vs OFF showed mixed results
+• 95% of trades were force-closed at EOD (not hitting stop/take targets)
+
+COMPARISON WITH WEEK TEST:
+Week (Mar 5-12): 2 profitable strategies out of 20
+Month (Mar 1-31): 0 profitable strategies out of 20
+→ Longer timeframe revealed the strategies are not consistently profitable

@@ -466,7 +466,11 @@ class TradingSystem:
                         exit_reason = 'STOP_LOSS'
                         
                     holding_minutes = (timestamp - entry_time).total_seconds() / 60
-                    profit_loss_pct = ((exit_price - entry_price) / entry_price) * 100
+                    # Calculate P&L as percentage of total capital (14M for 14 stocks)
+                    investment_per_stock = 1_000_000  # $1M per stock
+                    shares = int(investment_per_stock / entry_price)
+                    total_capital = 14_000_000  # 14M total capital for 14 stocks
+                    profit_loss_pct = ((exit_price - entry_price) * shares / total_capital) * 100
                     
                     return {
                         'exit_price': exit_price,
@@ -479,7 +483,11 @@ class TradingSystem:
                 # Check if only stop loss is hit
                 elif low <= stop_loss_price:
                     holding_minutes = (timestamp - entry_time).total_seconds() / 60
-                    profit_loss_pct = ((stop_loss_price - entry_price) / entry_price) * 100
+                    # Calculate P&L as percentage of total capital (14M for 14 stocks)
+                    investment_per_stock = 1_000_000  # $1M per stock
+                    shares = int(investment_per_stock / entry_price)
+                    total_capital = 14_000_000  # 14M total capital for 14 stocks
+                    profit_loss_pct = ((stop_loss_price - entry_price) * shares / total_capital) * 100
                     
                     return {
                         'exit_price': stop_loss_price,
@@ -492,7 +500,11 @@ class TradingSystem:
                 # Check if only take profit is hit
                 elif high >= take_profit_price:
                     holding_minutes = (timestamp - entry_time).total_seconds() / 60
-                    profit_loss_pct = ((take_profit_price - entry_price) / entry_price) * 100
+                    # Calculate P&L as percentage of total capital (14M for 14 stocks)
+                    investment_per_stock = 1_000_000  # $1M per stock
+                    shares = int(investment_per_stock / entry_price)
+                    total_capital = 14_000_000  # 14M total capital for 14 stocks
+                    profit_loss_pct = ((take_profit_price - entry_price) * shares / total_capital) * 100
                     
                     return {
                         'exit_price': take_profit_price,
@@ -508,7 +520,11 @@ class TradingSystem:
             exit_price = last_row['Close']
             
             holding_minutes = (last_timestamp - entry_time).total_seconds() / 60
-            profit_loss_pct = ((exit_price - entry_price) / entry_price) * 100
+            # Calculate P&L as percentage of total capital (14M for 14 stocks)
+            investment_per_stock = 1_000_000  # $1M per stock
+            shares = int(investment_per_stock / entry_price)
+            total_capital = 14_000_000  # 14M total capital for 14 stocks
+            profit_loss_pct = ((exit_price - entry_price) * shares / total_capital) * 100
             
             return {
                 'exit_price': exit_price,
@@ -702,7 +718,9 @@ class TradingSystem:
         # Portfolio-level calculations
         total_capital_invested = df['position_value'].sum()
         total_dollar_profit_loss = df['profit_loss_dollar'].sum()
-        total_return_pct = (total_dollar_profit_loss / total_capital_invested) * 100 if total_capital_invested > 0 else 0
+        # Calculate return as percentage of total capital (14M for 14 stocks)
+        total_capital = 14_000_000  # 14M total capital for 14 stocks
+        total_return_pct = (total_dollar_profit_loss / total_capital) * 100
         
         avg_profit_loss_pct = df['profit_loss_pct'].mean()
         avg_profit_loss_dollar = df['profit_loss_dollar'].mean()

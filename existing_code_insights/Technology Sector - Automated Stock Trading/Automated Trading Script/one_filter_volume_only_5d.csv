@@ -1,0 +1,2 @@
+strategy_id,period_start,period_end,decision_time_et,total_pnl_usd,cumulative_return_pct,trades_count,win_rate_pct,forced_closes,days_with_trades,days_with_no_trades,status
+VOL01,2025-08-18,2025-08-25,09:30:00 EDT,-103076.9587,-0.003817665137037037,27,37.03703703703704,27,6,0,OK

@@ -1,0 +1,27 @@
+{
+  "strategy_id": "S02",
+  "analysis_date": "2025-08-27T18:05:03.384523",
+  "capital_requirements": {
+    "max_concurrent_positions": 12,
+    "position_size_usd": 1000000,
+    "required_capital_base": 12000000
+  },
+  "performance_metrics": {
+    "total_profit_usd": 336394.1942000015,
+    "final_balance_usd": 12336394.194200002,
+    "total_return_pct": 2.8032849516666793,
+    "annualized_return_cagr_pct": 3.6326627052011506,
+    "avg_profit_per_trade_usd": 430.17160383631904,
+    "avg_return_per_trade_pct": 0.0430171603836319,
+    "test_period_days": 283,
+    "test_period_years": 0.7748117727583846
+  },
+  "risk_metrics": {
+    "annualized_volatility_pct": 0.0021947310317579046,
+    "sharpe_ratio": 16.551744394353015,
+    "max_drawdown_pct": 0
+  },
+  "original_metrics": {
+    "total_trades": 782,
+    "original_return_pct": 0.04301716038363191,
+    "turnover_based_calculation": 

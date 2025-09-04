@@ -1,0 +1,71 @@
+# Trading Strategy Configuration - SAFE DEFAULTS
+# This file contains safe default parameters for the automated trading system
+# All advanced features are OFF by default to ensure core functionality works
+
+strategy:
+  # Price Trend Filter (DISABLED by default for stability)
+  trend_filter:
+    enabled: false               # SAFE: Disabled by default
+    lookback_days: 20           # Number of days for moving average calculation
+    comparator: "yesterday_gt_ma" # Options: yesterday_gt_ma | yesterday_ge_ma | none
+  
+  # News Source Weighting (DISABLED by default for stability)
+  news_weighting:
+    enabled: false              # SAFE: Disabled by default
+    default_weight: 1.0         # Default weight for unknown sources
+    source_weights:             # Domain-specific weights for news sources
+      bloomberg.com: 1.30
+      reuters.com: 1.25
+      wsj.com: 1.20
+      cnbc.com: 1.10
+      seekingalpha.com: 0.95
+      marketwatch.com: 1.05
+      yahoo.com: 0.90
+      unknown: 1.00             # Fallback for unrecognized sources
+  
+  # Core sentiment parameters (SAFE defaults)
+  sentiment:
+    min_news_count: 2           # Minimum number of articles required
+    max_news_count: 10          # Maximum articles to consider per stock
+    min_sentiment: 0.1          # Minimum sentiment threshold
+    max_sentiment: 1.0          # Maximum sentiment threshold
+    
+  # Trading parameters (CONSERVATIVE defaults)
+  trading:
+    investment_per_stock: 10000 # Conservative position size
+    stop_loss_pct: 5.0          # Conservative stop loss
+    take_profit_pct: 5.0        # Conservative take profit
+    max_positions: 3            # Limit concurrent positions
+    
+# Rate Limiting (DISABLED by default for stability)
+rate_limiting:
+  enabled: false                # SAFE: Disabled by default
+  requests_per_minute: 60       # Conservative rate limit
+  burst_limit: 10               # Burst allowance
+  
+# Logging configuration (SAFE defaults)
+logging:
+  level: INFO                   # INFO level by default
+  file_enabled: true            # Always log to file
+  console_enabled: true         # Always show in console
+  debug_trend_filter: false     # No debug spam by default
+  debug_news_weighting: false   # No debug spam by default
+  debug_api_calls: false        # No debug spam by default
+
+# Market hours (US Eastern Time)
+market_hours:
+  timezone: "America/New_York"
+  open_time: "09:30"
+  close_time: "16:00"
+  
+# Cache settings (SAFE defaults)
+cache:
+  enabled: true                 # Enable caching for performance
+  ttl_minutes: 60              # Cache for 1 hour
+  max_size_mb: 100             # Limit cache size
+  
+# Safety settings
+safety:
+  paper_trading_only: true      # SAFE: Paper trading by default
+  max_daily_loss: 1000         # Maximum daily loss limit
+  require_confirmation: true    # Require confirmation for live trades
