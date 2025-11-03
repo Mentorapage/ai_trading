@@ -1,0 +1,50 @@
+{
+  "last_trading_date": "2025-10-31",
+  "positions": {
+    "AAPL": {
+      "qty": 21.0,
+      "avg_entry_price": 246.387143,
+      "market_value": 5609.3121,
+      "unrealized_pl": 435.1821
+    },
+    "AMZN": {
+      "qty": 24.0,
+      "avg_entry_price": 217.78875,
+      "market_value": 6138.96,
+      "unrealized_pl": 912.03
+    },
+    "GOOGL": {
+      "qty": 20.0,
+      "avg_entry_price": 256.1595,
+      "market_value": 5653.4,
+      "unrealized_pl": 530.21
+    },
+    "META": {
+      "qty": 35.0,
+      "avg_entry_price": 749.23,
+      "market_value": 22740.9,
+      "unrealized_pl": -3482.15
+    },
+    "MSFT": {
+      "qty": 10.0,
+      "avg_entry_price": 516.742,
+      "market_value": 5195.5,
+      "unrealized_pl": 28.08
+    },
+    "NVDA": {
+      "qty": 28.0,
+      "avg_entry_price": 185.99,
+      "market_value": 5837.2748,
+      "unrealized_pl": 629.5548
+    },
+    "TSLA": {
+      "qty": 55.0,
+      "avg_entry_price": 464.107818,
+      "market_value": 25856.325,
+      "unrealized_pl": 330.395
+    }
+  },
+  "daily_stats": {},
+  "phase": "intraday",
+  "order_attempts": []
+}

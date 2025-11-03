@@ -1,0 +1,22 @@
+# Autonomous Daily Trader Requirements
+# Core trading and market data
+alpaca-py>=0.40.1
+python-dotenv>=1.1.0
+pytz>=2021.1
+
+# Data processing
+pandas>=2.2.3
+numpy>=2.0.2
+
+# Telegram notifications
+requests>=2.25.0
+
+# System monitoring and control
+psutil>=5.8.0
+
+# Existing system dependencies
+nltk>=3.9.1
+finnhub-python>=2.4.23
+PyYAML>=6.0.1
+
+
